@@ -75,12 +75,15 @@ update msg model =
 
 
 
--- We've changed the main value so now instead of being static HTML, it's a sandbox
--- program. We use the sandbox function and pass in a record. The record has
--- to have 3 properties: init, view, and update. The init property is the initial
--- value that the model is set to. The view property is the view function which takes
--- the model and returns the displayed HTML, and the update property is a function
+-- We've changed the main value so now instead of being static HTML,
+-- it's a sandbox program. We use the sandbox function and pass in a record.
+-- The record has to have 3 properties: init, view, and update.
+-- The init property is the initial value that the model is set to.
+-- The view property is the view function
+-- which takes the model and returns the displayed HTML,
+-- and the update property is a function
 -- that takes a message and the model as arguments and returns the new model.
+
 -- Initially, the model will be passed to the view function as an argument and the
 -- view function will return the HTML. The sandbox will handle displaying
 -- that HTML to the page so the user can see and interact with that HTML. If the user
