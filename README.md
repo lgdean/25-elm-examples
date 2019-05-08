@@ -41,7 +41,7 @@ git clone https://github.com/bryanjenningz/25-elm-examples.git
 cd 25-elm-examples
 elm make 21-localstorage-editable-todos.elm --output elm.js
 elm reactor
-# The elm reactor command will server your files to http://localhost:8000,
+# The elm reactor command will serve your files to http://localhost:8000,
 # so go to http://localhost:8000 in your browser and select the HTML file.
 ```
 
